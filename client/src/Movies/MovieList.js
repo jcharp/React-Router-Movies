@@ -1,6 +1,8 @@
 import React from 'react';
 
 const MovieList = props => {
+
+  console.log('movielist props ', props);
   return (
     <div className="movie-list">
       {props.movies.map(movie => (
