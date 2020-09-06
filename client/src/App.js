@@ -10,7 +10,7 @@ import SavedList from './Movies/SavedList';
 const App = () => {
   const [saved, setSaved] = useState([]); // Stretch: the ids of "saved" movies
   const [movieList, setMovieList] = useState([]);
-   console.log('movielist ', movieList);
+  //  console.log('movielist ', movieList);
   useEffect(() => {
     const getMovies = () => {
       axios
